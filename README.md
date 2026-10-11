@@ -6,10 +6,12 @@ mirrored to [github.com/quine-global/homebrew-tap](https://github.com/quine-glob
 
 ```sh
 brew tap quine/tap https://forge.quinefoundation.com/quine-global/homebrew-tap.git
+brew trust quine/tap
 brew install --cask quintodrome
 ```
 
-The URL is required: without one, `brew tap` assumes a GitHub repo.
+The URL is required: without one, `brew tap` assumes a GitHub repo. Homebrew
+refuses to load casks from a tap you haven't trusted, hence `brew trust`.
 
 If you tapped it under an older name, switch over:
 
