@@ -11,15 +11,15 @@ cask "quine-hyper" do
   homepage "https://github.com/quine-global/hyper"
 
   conflicts_with cask: ["hyper", "hyper@canary"]
+  depends_on :macos
 
   app "Hyper.app"
   binary "#{appdir}/Hyper.app/Contents/Resources/bin/hyper"
 
   # Only ad-hoc signed: strip the quarantine flag Homebrew adds, or
   # Gatekeeper refuses to open it.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Hyper.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Hyper.app"]
   end
 
   zap trash: [

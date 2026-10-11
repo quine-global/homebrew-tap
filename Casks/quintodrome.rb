@@ -10,11 +10,12 @@ cask "quintodrome" do
   desc "Desktop app wrapping the Navidrome music server"
   homepage "https://forge.quinefoundation.com/quine-global/quintodrome"
 
+  depends_on :macos
+
   app "Quintodrome.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Quintodrome.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Quintodrome.app"]
   end
 
   zap trash: [
