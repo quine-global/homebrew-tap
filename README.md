@@ -16,8 +16,10 @@ brew install --cask quine-hyper
 | `quintodrome` | Quintodrome (Navidrome desktop app) | [Forgejo](https://forge.quinefoundation.com/quine-global/quintodrome) |
 | `quine-hyper` | Hyper terminal, Quine fork | [GitHub](https://github.com/quine-global/hyper) |
 
-`quine-hyper` installs `Hyper.app` and the `hyper` command, like the official
-`hyper` cask, so only one of the two can be installed.
+`quine-hyper` works on macOS and on Homebrew on Linux (x86_64 and arm64, as an
+AppImage). On macOS it installs `Hyper.app` and the `hyper` command, like the
+official `hyper` cask, so only one of the two can be installed there.
+`quintodrome` is macOS only.
 
 The URL is required: without one, `brew tap` assumes a GitHub repo. Homebrew
 refuses to load casks from a tap you haven't trusted, hence `brew trust`.
