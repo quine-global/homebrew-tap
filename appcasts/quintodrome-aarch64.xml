@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Quintodrome</title>
+    <item>
+      <title>Quintodrome 1.0.0-alpha.10</title>
+      <sparkle:version>1.0.0-alpha.10</sparkle:version>
+      <sparkle:shortVersionString>1.0.0-alpha.10</sparkle:shortVersionString>
+      <pubDate>Thu, 05 Nov 2026 09:28:35 +0000</pubDate>
+      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.10/Quintodrome-aarch64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="W6evwsUFOWaZZXWqF0rERgDPg2j24JgNugQBZ5L8AWOEIytuZpxdgjQ1TxH6poaRoLxFBXAjmb/0ur5gzb0CBw==" length="38468769"/>
+    </item>
+  </channel>
+</rss>

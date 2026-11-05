@@ -1,15 +1,18 @@
 cask "quintodrome" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.0.0-alpha.9"
-  sha256 arm:   "92dd5bb5be92ff7e227ca3892e1c800d103ad002b949d6b5cf6c03777074ab19",
-         intel: "1e35c43dcb33558c0fa16e2ec1754d70f0adc5ea2c66833f533fb2bf261e5fe2"
+  version "1.0.0-alpha.10"
+  sha256 arm:   "e059c0479f4ca7c996d402535af20b6c20852eab54b8dc1b4570e54715919bb4",
+         intel: "530105a483b0456efaaea33e1ce26c9e296beda4ed02f5427da391134e90a01e"
 
-  url "https://forge.quinefoundation.com/quine-global/quintodrome/releases/download/v#{version}/Quintodrome-#{arch}-apple-darwin.app.zip"
+  url "https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v#{version}/Quintodrome-#{arch}-apple-darwin.app.zip"
   name "Quintodrome"
   desc "Desktop app wrapping the Navidrome music server"
-  homepage "https://forge.quinefoundation.com/quine-global/quintodrome"
+  homepage "https://git.quineglobal.com/quine-global/quintodrome.git"
 
+  # The app updates itself (Sparkle), so `brew upgrade` leaves it
+  # be unless asked with --greedy.
+  auto_updates true
   depends_on :macos
 
   app "Quintodrome.app"
