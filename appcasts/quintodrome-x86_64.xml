@@ -3,12 +3,13 @@
   <channel>
     <title>Quintodrome</title>
     <item>
-      <title>Quintodrome 1.0.0-alpha.12</title>
-      <sparkle:version>46</sparkle:version>
-      <sparkle:shortVersionString>1.0.0-alpha.12</sparkle:shortVersionString>
-      <pubDate>Thu, 05 Nov 2026 10:37:41 +0000</pubDate>
-      <description><![CDATA[A testing update, to try Sparkle end to end (again: alpha.11<br>
-looked like the same version to Sparkle).<br>
+      <title>Quintodrome 1.0.0-alpha.14</title>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>1.0.0-alpha.14</sparkle:shortVersionString>
+      <pubDate>Thu, 05 Nov 2026 11:16:47 +0000</pubDate>
+      <description><![CDATA[Navidrome brought up to date (339 upstream changes, through<br>
+2026-11-03), and the first release Sparkle can see coming.<br>
+(alpha.13 never finished: its files didn't make it up.)<br>
 <br>
 How now, brown cow?<br>
 <br>
@@ -20,12 +21,18 @@ A host, of golden daffodils;<br>
 <br>
 "Hope" is the thing with feathers -<br>
 That perches in the soul -<br>
+And sings the tune without the words -<br>
+And never stops - at all -<br>
   (Emily Dickinson)<br>
 <br>
 Tyger Tyger, burning bright,<br>
 In the forests of the night;<br>
-  (William Blake)<br>]]></description>
-      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.12/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="01KnxD/2CqvFWSnTBa7n/NI1W6MjvgWuqG5kbZy6N3CxybtZZ8GYwmcrRePdhZNDUM1DGvIlFQNPwUaaiZtMCg==" length="41893380"/>
+  (William Blake)<br>
+<br>
+Shall I compare thee to a summer's day?<br>
+Thou art more lovely and more temperate:<br>
+  (William Shakespeare)<br>]]></description>
+      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.14/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="5VbKCIdbQyALOl/OpkNRccLHQ5gRof0b2NyoBMFz7JnmdnqYYW582RavHy1TY8rx7JSoc0lvy2gtIu7kFYnbAg==" length="48391518"/>
     </item>
   </channel>
 </rss>
