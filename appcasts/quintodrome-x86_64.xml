@@ -3,11 +3,28 @@
   <channel>
     <title>Quintodrome</title>
     <item>
-      <title>Quintodrome 1.0.0-alpha.10</title>
-      <sparkle:version>1.0.0-alpha.10</sparkle:version>
-      <sparkle:shortVersionString>1.0.0-alpha.10</sparkle:shortVersionString>
-      <pubDate>Thu, 05 Nov 2026 09:28:35 +0000</pubDate>
-      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.10/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="do48sr4BG96vNO+3iX+WEXsnxtktzMOLvjjsSXYm+dt0trx+u0oujCSAKO47xMEJ/LNhJ3ByTuOo4IkOlRP0Ag==" length="41893331"/>
+      <title>Quintodrome 1.0.0-alpha.11</title>
+      <sparkle:version>1.0.0-alpha.11</sparkle:version>
+      <sparkle:shortVersionString>1.0.0-alpha.11</sparkle:shortVersionString>
+      <pubDate>Thu, 05 Nov 2026 10:26:06 +0000</pubDate>
+      <description><![CDATA[A testing update, to try Sparkle end to end.<br>
+<br>
+How now, brown cow?<br>
+<br>
+I wandered lonely as a cloud<br>
+That floats on high o'er vales and hills,<br>
+When all at once I saw a crowd,<br>
+A host, of golden daffodils;<br>
+  (William Wordsworth)<br>
+<br>
+"Hope" is the thing with feathers -<br>
+That perches in the soul -<br>
+  (Emily Dickinson)<br>
+<br>
+Tyger Tyger, burning bright,<br>
+In the forests of the night;<br>
+  (William Blake)<br>]]></description>
+      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.11/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="hWqnBRwAb7Q9W+F97qq38F+PQHzKzBJhQJUO6F3jk5DiZUwx//YvhRGRmJ1KS6gs6vBpNivfdWKBYKsMTNX+Cg==" length="41893325"/>
     </item>
   </channel>
 </rss>
