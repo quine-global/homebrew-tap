@@ -3,11 +3,12 @@
   <channel>
     <title>Quintodrome</title>
     <item>
-      <title>Quintodrome 1.0.0-alpha.11</title>
-      <sparkle:version>1.0.0-alpha.11</sparkle:version>
-      <sparkle:shortVersionString>1.0.0-alpha.11</sparkle:shortVersionString>
-      <pubDate>Thu, 05 Nov 2026 10:26:06 +0000</pubDate>
-      <description><![CDATA[A testing update, to try Sparkle end to end.<br>
+      <title>Quintodrome 1.0.0-alpha.12</title>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>1.0.0-alpha.12</sparkle:shortVersionString>
+      <pubDate>Thu, 05 Nov 2026 10:37:41 +0000</pubDate>
+      <description><![CDATA[A testing update, to try Sparkle end to end (again: alpha.11<br>
+looked like the same version to Sparkle).<br>
 <br>
 How now, brown cow?<br>
 <br>
@@ -24,7 +25,7 @@ That perches in the soul -<br>
 Tyger Tyger, burning bright,<br>
 In the forests of the night;<br>
   (William Blake)<br>]]></description>
-      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.11/Quintodrome-aarch64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="xJUtM9nixagNxIV54LGNFWGBTyPoUuGm53Ksqxcs8J6CMAgOUATbm+J2M7eOLqhb4I9dYUc1OFB5JIh23/tSBw==" length="38468797"/>
+      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.12/Quintodrome-aarch64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="HKXodg0NEk1/mwdW2B0BlvWDuZsckwxRMTUpY6yb+cu+F5nyaqhwNInDaZg5blTrn2u2opkZyvJyPJOMPqCgAQ==" length="38468782"/>
     </item>
   </channel>
 </rss>
