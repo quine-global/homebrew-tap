@@ -1,22 +1,20 @@
 cask "quine-hyper" do
   arch arm: "arm64", intel: "x64"
-  linux_arch = on_arch_conditional arm: "arm64", intel: "x86_64"
-  asset = on_system_conditional macos: "mac-#{arch}.dmg", linux: "#{linux_arch}.AppImage"
+  asset = on_system_conditional macos: "mac-#{arch}.dmg", linux: "x86_64.AppImage"
 
-  version "4.0.0-q-canary.18"
-  sha256 arm:          "5f71c5e62fd247d3f076db5bf281c30db0943c90f3c5be91d9bae8e4e974d0c9",
-         intel:        "72082d1d2f50c084214296e7fdf3135b153a7387da89ce2e70dc95ea154ca21b",
-         arm64_linux:  "e2324ce4e5d7437507200f7b8757b27fcb1f04d6274e053e4c56d3570ff1b529",
-         x86_64_linux: "91a267047be4ac39dee12600a9d811ffbc955a94eb2bb78e0d9c4cab2ada4d4f"
+  version "4.0.0-q-canary.20"
+  sha256 arm:          "5a732a01ab569029efd488d2345bf6bdc02ccc8f841f64f78ae45cd0ce761b1f",
+         intel:        "61937afbc938c827e02345c84fa8a201c243f5d922eadba581851c67331a4157",
+         x86_64_linux: "87dfacb80888c379c635ca7c0f94d08f2a91ca6a78c83d89331b429f204a8aff"
 
   on_macos do
+    auto_updates true # Sparkle; `brew upgrade --greedy` still upgrades it
     conflicts_with cask: ["hyper", "hyper@canary"]
 
     app "Hyper.app"
     binary "#{appdir}/Hyper.app/Contents/Resources/bin/hyper"
 
-    # Only ad-hoc signed: strip the quarantine flag Homebrew adds, or
-    # Gatekeeper refuses to open it.
+    # Only ad-hoc signed: without this, Gatekeeper refuses to open it.
     postflight_steps do
       run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Hyper.app"]
     end
@@ -32,7 +30,9 @@ cask "quine-hyper" do
     ]
   end
   on_linux do
-    app_image "Hyper-#{version}-#{linux_arch}.AppImage"
+    depends_on arch: :x86_64
+
+    app_image "Hyper-#{version}-x86_64.AppImage"
 
     zap trash: "~/.config/Hyper"
   end

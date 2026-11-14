@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"><channel><item>
+<title>Hyper 4.0.0-q-canary.20</title>
+<sparkle:version>79</sparkle:version>
+<sparkle:shortVersionString>4.0.0-q-canary.20</sparkle:shortVersionString>
+<pubDate>Sat, 14 Nov 2026 06:07:48 GMT</pubDate>
+<description><![CDATA[]]></description>
+<enclosure url="https://github.com/quine-global/hyper/releases/download/v4.0.0-q-canary.20/Hyper-4.0.0-q-canary.20-mac-arm64.zip" type="application/octet-stream" sparkle:edSignature="c0U05oV4xTL9v2KDdrdiikWbwnrx03ihA8EAveCKxcHf4tEenaQNrsbMa8QPZpimNsSD8Zf43Dj221YoIQ6zDw==" length="117305178"/>
+</item></channel></rss>
