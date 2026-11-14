@@ -2,10 +2,10 @@ cask "quine-hyper" do
   arch arm: "arm64", intel: "x64"
   asset = on_system_conditional macos: "mac-#{arch}.dmg", linux: "x86_64.AppImage"
 
-  version "4.0.0-q-canary.20"
-  sha256 arm:          "5a732a01ab569029efd488d2345bf6bdc02ccc8f841f64f78ae45cd0ce761b1f",
-         intel:        "61937afbc938c827e02345c84fa8a201c243f5d922eadba581851c67331a4157",
-         x86_64_linux: "87dfacb80888c379c635ca7c0f94d08f2a91ca6a78c83d89331b429f204a8aff"
+  version "4.0.0-q-canary.22"
+  sha256 arm:          "a136e844b369a741f99f38985cb6042bc73e3ec47fc39bde386287e74b31c518",
+         intel:        "1fbf58b6c90a2dc6f779eeb707e5ea22a2fd92636de14d4b7cca14898485b024",
+         x86_64_linux: "22481fb29920a71f2039d65e5f2a0bcd0b1a920cba4adc9f23402c2e335e377a"
 
   on_macos do
     auto_updates true # Sparkle; `brew upgrade --greedy` still upgrades it
