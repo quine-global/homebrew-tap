@@ -8,7 +8,7 @@
       <sparkle:shortVersionString>1.0.0-alpha.18</sparkle:shortVersionString>
       <pubDate>Sat, 14 Nov 2026 07:34:52 +0000</pubDate>
       <description><![CDATA[Quintodrome 1.0.0-alpha.18<br>]]></description>
-      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.18/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="AuXPMyfOlPiL8IRBaSlRjFdUkyzwAXLX/xF0AMqchjO3705QJjPSiLrNcz9fNfpHJ5eP3vyqzsArXtuRk2YnCQ==" length="48399665"/>
+      <enclosure url="https://git.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.18/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="AuXPMyfOlPiL8IRBaSlRjFdUkyzwAXLX/xF0AMqchjO3705QJjPSiLrNcz9fNfpHJ5eP3vyqzsArXtuRk2YnCQ==" length="48399665"/>
     </item>
   </channel>
 </rss>
