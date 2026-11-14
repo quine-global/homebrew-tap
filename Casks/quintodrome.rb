@@ -1,9 +1,9 @@
 cask "quintodrome" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.0.0-alpha.14"
-  sha256 arm:   "d0b69f8a25fade9183520c0958e7a7b6ca0f972bf8b77ae3384119f65548d898",
-         intel: "7bdd6d5e9a10aa5f846603012f4afe0acefba49e1ef970a96af38e8c83eea92b"
+  version "1.0.0-alpha.15"
+  sha256 arm:   "8024125137bc30bfbfab5d6bfbd3f760c455fe40bf5b3611b522f8b92508abcb",
+         intel: "c902770eba664b31f32d1894a23730ad5388b3dcb42546791a53d77ad982cd0f"
 
   url "https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v#{version}/Quintodrome-#{arch}-apple-darwin.app.zip"
   name "Quintodrome"

@@ -3,36 +3,14 @@
   <channel>
     <title>Quintodrome</title>
     <item>
-      <title>Quintodrome 1.0.0-alpha.14</title>
-      <sparkle:version>55</sparkle:version>
-      <sparkle:shortVersionString>1.0.0-alpha.14</sparkle:shortVersionString>
-      <pubDate>Thu, 05 Nov 2026 11:16:47 +0000</pubDate>
-      <description><![CDATA[Navidrome brought up to date (339 upstream changes, through<br>
-2026-11-03), and the first release Sparkle can see coming.<br>
-(alpha.13 never finished: its files didn't make it up.)<br>
+      <title>Quintodrome 1.0.0-alpha.15</title>
+      <sparkle:version>65</sparkle:version>
+      <sparkle:shortVersionString>1.0.0-alpha.15</sparkle:shortVersionString>
+      <pubDate>Sat, 14 Nov 2026 05:27:03 +0000</pubDate>
+      <description><![CDATA[Sparkle's update key becomes the one shared with Hyper<br>
 <br>
-How now, brown cow?<br>
-<br>
-I wandered lonely as a cloud<br>
-That floats on high o'er vales and hills,<br>
-When all at once I saw a crowd,<br>
-A host, of golden daffodils;<br>
-  (William Wordsworth)<br>
-<br>
-"Hope" is the thing with feathers -<br>
-That perches in the soul -<br>
-And sings the tune without the words -<br>
-And never stops - at all -<br>
-  (Emily Dickinson)<br>
-<br>
-Tyger Tyger, burning bright,<br>
-In the forests of the night;<br>
-  (William Blake)<br>
-<br>
-Shall I compare thee to a summer's day?<br>
-Thou art more lovely and more temperate:<br>
-  (William Shakespeare)<br>]]></description>
-      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.14/Quintodrome-aarch64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="3RwEtlIs5XxFl3tZCuzkIbgB0TGq9CofbLAFGrIcrNe1raln/T8MvLeOPaI7sXcnmbVFSZY70GpiZyNe2oqxBw==" length="44363343"/>
+This release is still signed with the old key, so installed apps accept it, and carries the new public key; the release after it is signed with the shared key.<br>]]></description>
+      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.15/Quintodrome-aarch64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="H+gqc4+wJyb+rR57mmiyjmDiAScaS4tKBjpgpGph/IwrsT1cveXyaNu3yzImHVkDrWCX8yRMQ60k4vxpyH2FBA==" length="44377085"/>
     </item>
   </channel>
 </rss>
