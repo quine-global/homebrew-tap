@@ -3,12 +3,12 @@
   <channel>
     <title>Quintodrome</title>
     <item>
-      <title>Quintodrome 1.0.0-alpha.16</title>
-      <sparkle:version>67</sparkle:version>
-      <sparkle:shortVersionString>1.0.0-alpha.16</sparkle:shortVersionString>
-      <pubDate>Sat, 14 Nov 2026 06:14:28 +0000</pubDate>
-      <description><![CDATA[No changes since alpha.15: the first update signed with the key shared with Hyper, which alpha.15 installs trust.<br>]]></description>
-      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.16/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="NxZM+vY/ou2BbrNqNftP00NszwGz835FjauJJTn7we4IBIhuzNC+oDzN5KxKC24wFqIJnJ80EtXSxlV4WvH/Bw==" length="48399735"/>
+      <title>Quintodrome 1.0.0-alpha.17</title>
+      <sparkle:version>69</sparkle:version>
+      <sparkle:shortVersionString>1.0.0-alpha.17</sparkle:shortVersionString>
+      <pubDate>Sat, 14 Nov 2026 06:30:20 +0000</pubDate>
+      <description><![CDATA[No changes since alpha.16: another update for Sparkle, signed with the key shared with Hyper.<br>]]></description>
+      <enclosure url="https://forge.in.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.17/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="KnQOxaoTxlL44L2SvlTDDVkK6DUnXb1Udu5lk33C88ESWtqNYuMu3whz3/hNfjeipOGFcjJFh8EsxAe8BdXoAg==" length="48399664"/>
     </item>
   </channel>
 </rss>
