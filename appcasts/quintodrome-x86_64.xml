@@ -3,12 +3,18 @@
   <channel>
     <title>Quintodrome</title>
     <item>
-      <title>Quintodrome 1.0.0-alpha.18</title>
-      <sparkle:version>71</sparkle:version>
-      <sparkle:shortVersionString>1.0.0-alpha.18</sparkle:shortVersionString>
-      <pubDate>Sat, 14 Nov 2026 07:34:52 +0000</pubDate>
-      <description><![CDATA[Quintodrome 1.0.0-alpha.18<br>]]></description>
-      <enclosure url="https://git.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.18/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="AuXPMyfOlPiL8IRBaSlRjFdUkyzwAXLX/xF0AMqchjO3705QJjPSiLrNcz9fNfpHJ5eP3vyqzsArXtuRk2YnCQ==" length="48399665"/>
+      <title>Quintodrome 1.0.0-alpha.19</title>
+      <sparkle:version>75</sparkle:version>
+      <sparkle:shortVersionString>1.0.0-alpha.19</sparkle:shortVersionString>
+      <pubDate>Mon, 16 Nov 2026 04:18:30 +0000</pubDate>
+      <description><![CDATA[Desktop: Check for Updates says when an update is queued for quit<br>
+<br>
+With automatic updates on, Sparkle downloads an update silently and installs<br>
+it when the app quits; Check for Updates… then showed nothing at all. Now it<br>
+says the version is ready and installs on quit, with Quit Now / Later.<br>
+<br>
+Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;<br>]]></description>
+      <enclosure url="https://git.quineglobal.com/quine-global/quintodrome/releases/download/v1.0.0-alpha.19/Quintodrome-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="8sK7Aj7TuMwekm4Cu7OCfCVYoGkbFbFweecTEx4XZJQMTD2+vavOzGWjR27281ahcj3xNMPwqOxQOzBV7kuCAw==" length="48404734"/>
     </item>
   </channel>
 </rss>
