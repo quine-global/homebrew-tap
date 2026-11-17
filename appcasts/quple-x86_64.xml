@@ -3,12 +3,12 @@
   <channel>
     <title>Quple</title>
     <item>
-      <title>Quple 0.1.0</title>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
-      <pubDate>Tue, 17 Nov 2026 05:56:48 +0000</pubDate>
-      <description><![CDATA[The first release of Quple for Mac.<br>]]></description>
-      <enclosure url="https://git.quineglobal.com/quine-global/quple/releases/download/v0.1.0/Quple-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="dM4iDlph4kKxeCB0XW3FSJeu+O4H8f4sLUSpglZ3W7FZTYxd3e69xpkmjj43uzfAzujA/JLIujvqwgW+5OzgBw==" length="6726293"/>
+      <title>Quple 0.1.1</title>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <pubDate>Tue, 17 Nov 2026 06:51:06 +0000</pubDate>
+      <description><![CDATA[Calls go to Quple's own Jitsi by default; notified calls ring longer.<br>]]></description>
+      <enclosure url="https://git.quineglobal.com/quine-global/quple/releases/download/v0.1.1/Quple-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="V/W0fjUZwi0K9Pf8JUqQxnf7302WBHZkGI8TrSA/kXIgbKGaEC/LzqvhNjTnxFrtfznrS6jOnfd11+MDI/O6Cg==" length="6726046"/>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,9 @@
 cask "quple" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.0"
-  sha256 arm:   "d3dda404f93a1c7b5f798b636b269c1f8b46872f174a5d1b5cff5095f5fb598e",
-         intel: "3714a7e1c47634a620cddd990a234ab44465215ceea5b76aad1d3c3062c0891c"
+  version "0.1.1"
+  sha256 arm:   "92dea7569ae90d66a11d75b40e76cae0306afff9b214d9b94669fb23a5a1e928",
+         intel: "edec92b6ac08b5189bb61f8932a0dbe2dcfc0ada27e41385297e6af619b82caa"
 
   url "https://git.quineglobal.com/quine-global/quple/releases/download/v#{version}/Quple-#{arch}-apple-darwin.app.zip"
   name "Quple"
