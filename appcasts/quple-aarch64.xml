@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Quple</title>
+    <item>
+      <title>Quple 0.1.0</title>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <pubDate>Tue, 17 Nov 2026 05:56:48 +0000</pubDate>
+      <description><![CDATA[The first release of Quple for Mac.<br>]]></description>
+      <enclosure url="https://git.quineglobal.com/quine-global/quple/releases/download/v0.1.0/Quple-aarch64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="UBlmbwt4jUTSZb2noZWCwz5RtoKNTZIpyj/uYCi1wJ3CGbLUltO4HwwDq+equuKOuEthK6o8HEzDOQzXYbfMCw==" length="6304172"/>
+    </item>
+  </channel>
+</rss>
