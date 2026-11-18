@@ -3,12 +3,22 @@
   <channel>
     <title>Quple</title>
     <item>
-      <title>Quple 0.1.1</title>
-      <sparkle:version>21</sparkle:version>
-      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-      <pubDate>Tue, 17 Nov 2026 06:51:06 +0000</pubDate>
-      <description><![CDATA[Calls go to Quple's own Jitsi by default; notified calls ring longer.<br>]]></description>
-      <enclosure url="https://git.quineglobal.com/quine-global/quple/releases/download/v0.1.1/Quple-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="V/W0fjUZwi0K9Pf8JUqQxnf7302WBHZkGI8TrSA/kXIgbKGaEC/LzqvhNjTnxFrtfznrS6jOnfd11+MDI/O6Cg==" length="6726046"/>
+      <title>Quple 0.1.2</title>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <pubDate>Wed, 18 Nov 2026 00:36:05 +0000</pubDate>
+      <description><![CDATA[iPhone: moving a call to the Mac no longer hangs it up<br>
+<br>
+The iPhone left the room with close() and then end(..., false). close()<br>
+makes the SDK fire onReadyToClose, whose end() ran first and hung up:<br>
+the other side's app saw "hung up" and ended its call, leaving the Mac<br>
+alone in the room (nginx, 2026-11-17 15:08:59: the iPhone's POST /hangup<br>
+as it handed over). Now end() comes first, so onReadyToClose's end()<br>
+does nothing. The watchdog's and CallKit's ends get the same order,<br>
+which also keeps the watchdog's reason as the notice.<br>
+<br>
+Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;<br>]]></description>
+      <enclosure url="https://git.quineglobal.com/quine-global/quple/releases/download/v0.1.2/Quple-x86_64-apple-darwin.app.zip" type="application/octet-stream" sparkle:edSignature="7T+9AGJ8ozVzFp/9oERZQVz7HCw6Jt9fNKAng74qHTCvdhBA1EXbEw3sp15udQ7gaptzJQfA0F7vTh2anf8fDg==" length="6726048"/>
     </item>
   </channel>
 </rss>
